@@ -1,2 +1,6 @@
+[user]
+	name = Michael Nucci
 [init]
 	defaultBranch = main
+[include]
+	path = .gitconfig.local

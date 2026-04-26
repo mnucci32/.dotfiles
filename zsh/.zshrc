@@ -75,7 +75,8 @@ else
 
   setopt PROMPT_SUBST
 
-  PROMPT='%F{blue}%n@%m%f %F{yellow}%3~%f${vcs_info_msg_0_} %(?.%F{green}.%F{red})❯%f '
+  PROMPT='%F{blue}%n@%m%f %F{yellow}%3~%f${vcs_info_msg_0_} 
+  %(?.%F{green}.%F{red})❯%f '
   RPROMPT='%(?.·.%F{red}✘ %?%f) %F{240}%T%f'
 fi
 
